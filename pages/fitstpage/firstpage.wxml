@@ -5,10 +5,16 @@
         <image class="sex" src="/images/性别@2x.png"></image>
         <image class="mail" src="/images/形状 15@2x.png"></image>
     </view>
-    <view class="white"></view>
+    <view class="white">
+        <view class="topbanner">
+            <text> 精选 </text>
+            <text> 书城 </text>
+            <text> 社区 </text>
+            <text> 商城 </text>
+        </view>
+    </view>
     <view class="headpic"></view>
     <image class="vip" src="/images/青色.png"></image>
-    <view class="topbanner"></view>
 </view>
 
 <view class="nextbox">

@@ -57,8 +57,8 @@ Page {
 }
 
 .topbox .nameline .mail{
-    height:36rpx;
-    width:99rpx;
+    height:36.67rpx;
+    width:113rpx;
     margin-left:150rpx;
 }
 
@@ -67,6 +67,22 @@ Page {
     height:150rpx;
     border-radius: 20rpx;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.topbox .white .topbanner{
+    font-size: 45rpx;
+    height:100%;
+    padding-top:6%;
+    padding-left:38%;
+}
+
+.topbox .white .topbanner text:nth-child(1){
+    color:#5ca7a0;
+}
+
+.topbox .white .topbanner text:nth-child(n+2){
+    margin-left:9rpx;
+    color:#ACACAC;
 }
 
 .topbox .headpic{
