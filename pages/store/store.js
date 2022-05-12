@@ -1,4 +1,4 @@
-// pages/fitstpage/firstpage.js
+// pages/store/store.js
 Page({
 
     /**
@@ -6,6 +6,11 @@ Page({
      */
     data: {
         topnews:'听我说谢谢你，...'
+    },
+    gotomain(e){
+        wx.navigateTo({
+          url: '/pages/fitstpage/firstpage',
+        })
     },
     gotomine(e){
         wx.navigateTo({
@@ -17,12 +22,6 @@ Page({
           url: '/pages/store/store',
         })
     },
-    gotomain(e){
-        wx.navigateTo({
-          url: '/pages/fitstpage/firstpage',
-        })
-    },
-
     /**
      * 生命周期函数--监听页面加载
      */

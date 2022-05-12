@@ -3,12 +3,13 @@
         "pages/fitstpage/firstpage",
         "pages/index/index",
         "pages/logs/logs",
-        "pages/mine/mine"
+        "pages/mine/mine",
+        "pages/store/store"
     ],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "何处惊鸿",
+        "navigationBarTitleText": "觅惊鸿",
         "navigationBarTextStyle": "black"
     },
     "style": "v2",

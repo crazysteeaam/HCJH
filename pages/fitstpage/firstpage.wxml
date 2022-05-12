@@ -10,7 +10,7 @@
             <text> 精选 </text>
             <text> 书城 </text>
             <text> 社区 </text>
-            <text> 商城 </text>
+            <text bindtap="gotostore"> 商城 </text>
         </view>
     </view>
     <view class="headpic"></view>
@@ -50,7 +50,7 @@
 
 
 <view class="foot">
-    <view class="bottomitem firstpage">
+    <view class="bottomitem firstpage" bindtap="gotomain">
         <image src="/images/bottom-1-Y.png"></image>
     </view>
     <view class="bottomitem books">
