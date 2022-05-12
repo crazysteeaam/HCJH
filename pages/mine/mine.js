@@ -1,18 +1,17 @@
-// pages/fitstpage/firstpage.js
+// pages/mine/mine.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-        topnews:'听我说谢谢你，...'
+
     },
-    gotomine(e){
+    gotofirst(e){
         wx.navigateTo({
-          url: '/pages/mine/mine',
+          url: '/pages/fitstpage/firstpage',
         })
     },
-
     /**
      * 生命周期函数--监听页面加载
      */

@@ -2,8 +2,8 @@
     "pages": [
         "pages/fitstpage/firstpage",
         "pages/index/index",
-        "pages/logs/logs"
-        
+        "pages/logs/logs",
+        "pages/mine/mine"
     ],
     "window": {
         "backgroundTextStyle": "light",

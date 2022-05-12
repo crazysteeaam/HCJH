@@ -51,15 +51,15 @@
 
 <view class="foot">
     <view class="bottomitem firstpage">
-        <image src="/images/首页.png"></image>
+        <image src="/images/bottom-1-Y.png"></image>
     </view>
     <view class="bottomitem books">
-        <image src="/images/书架.png"></image>
+        <image src="/images/bottom-2-N.png"></image>
     </view>
     <view class="bottomitem cart">
-        <image src="/images/购物车.png"></image>
+        <image src="/images/bottom-3-N.png"></image>
     </view>
-    <view class="bottomitem mine">
-        <image src="/images/我.png"></image>
+    <view class="bottomitem mine" bindtap="gotomine">
+        <image src="/images/bottom-4-N.png"></image>
     </view>
 </view>
