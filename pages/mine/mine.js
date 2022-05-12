@@ -5,7 +5,7 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+        topnews:'听我说谢谢你，...'
     },
     gotofirst(e){
         wx.navigateTo({

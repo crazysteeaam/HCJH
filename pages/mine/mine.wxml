@@ -17,7 +17,24 @@
     <image class="vip" src="/images/青色.png"></image>
 </view>
 
-
+<view class="nextbox">
+    <view class="topnews">
+        <view class="lefttopnews">云头条</view>
+        <view class="righttopnews">本日新闻：{{topnews}}</view>
+    </view>
+    <view class="mainbox">
+        <view class="columnlistul">
+            <view class="columnlistli">账号管理<image class="goto" src="/images/联合 1.png"></image></view>
+            <view class="columnlistli">收货地址<image class="goto" src="/images/联合 1.png"></image></view>
+            <view class="columnlistli">手机APP<image class="goto" src="/images/联合 1.png"></image></view>
+            <view class="columnlistli">网页版<image class="goto" src="/images/联合 1.png"></image></view>
+            <view class="columnlistli">帮助与反馈<image class="goto" src="/images/联合 1.png"></image></view>
+            <view class="columnlistli">隐私政策<image class="goto" src="/images/联合 1.png"></image></view>
+            <view class="columnlistli">关于<image class="goto" src="/images/联合 1.png"></image></view>
+            <view class="columnlistli">退出登录<image class="goto" src="/images/联合 1.png"></image></view>
+        </view>
+    </view>
+</view>
 
 <view class="foot">
     <view class="bottomitem firstpage">
