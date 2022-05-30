@@ -1,10 +1,5 @@
 <!--pages/fitstpage/firstpage.wxml-->
 <view class="topbox">
-    <view class="nameline">
-        <view class="name">名字阿巴</view>
-        <image class="sex" src="/images/性别@2x.png"></image>
-        <image class="mail" src="/images/形状 15@2x.png"></image>
-    </view>
     <view class="white">
         <view class="topbanner">
             <text> 精选 </text>
@@ -14,23 +9,23 @@
         </view>
     </view>
     <view class="headpic"></view>
-    <image class="vip" src="/images/青色.png"></image>
+    <image class="vip" src="/images/金色.png"></image>
 </view>
 
 <view class="nextbox">
     <view class="topnews">
-        <view class="lefttopnews">云头条</view>
-        <view class="righttopnews">本日新闻：{{topnews}}</view>
+        <view class="lefttopnews"><image style="height:35rpx;width:35rpx;" src="/images/first-hotpot.png"></image></view>
+        <view class="righttopnews">大家都在搜：{{topnews}}</view>
     </view>
 
     <view class="mainbox">
         <view class="ip">
             <view class='iptitle'>交互式动画视频</view>
             <view class='ipbox'>
-                <image class="ipa" src="/images/ipa.png"></image>
-                <image class="ipa" src="/images/ipa.png"></image>
-                <image class="ipa" src="/images/ipa.png"></image>
-                <image class="ipa" src="/images/ipa.png"></image>
+                <image class="ipa"></image>
+                <image class="ipa"></image>
+                <image class="ipa"></image>
+                <image class="ipa"></image>
             </view>
         </view>
         <view class="normalbox">

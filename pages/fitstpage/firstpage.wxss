@@ -31,40 +31,12 @@ Page {
     height:205rpx;
     width:95%;
     left:2.5%;
-    top:125rpx;
-}
-
-.topbox .nameline{
-    height:70rpx;
-    width:100%;
-    padding-left:250rpx;
-    box-sizing: border-box;
-    font-size: 40rpx;
-    color:#5ca7a0;
-    font-weight: bold;
-}
-
-.topbox .nameline .name{
-    display: inline;
-    height:70rpx;
-    line-height:50rpx;
-}
-
-.topbox .nameline .sex{
-    height:40rpx;
-    width:28rpx;
-    margin-left:10rpx;
-}
-
-.topbox .nameline .mail{
-    height:36.67rpx;
-    width:113rpx;
-    margin-left:150rpx;
+    top:35rpx;
 }
 
 .topbox .white{
     background-color: #fff;
-    height:150rpx;
+    height:116.67rpx;
     border-radius: 20rpx;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
@@ -72,8 +44,8 @@ Page {
 .topbox .white .topbanner{
     font-size: 45rpx;
     height:100%;
-    padding-top:6%;
-    padding-left:38%;
+    padding-top:4%;
+    padding-left:66.67rpx;
 }
 
 .topbox .white .topbanner text:nth-child(1){
@@ -86,27 +58,28 @@ Page {
 }
 
 .topbox .headpic{
-    height:200rpx;
-    width:200rpx;
+    height:156.17rpx;
+    width:156.17rpx;
     background-color:#5ca7a0 ;
     position: relative;
-    top:-230rpx;
-    left:35rpx;
-    border-radius: 100rpx;
-    border:white 5px solid;
+    top:-135rpx;
+    left:508.33rpx;
+    border-radius: 156rpx;
+    border:white 2px solid;
+    box-sizing: border-box;
 }
 
 .topbox .vip{
     height:95rpx;
     width:75rpx;
     position: relative;
-    top:-315rpx;
-    left:180rpx;
+    top:-215rpx;
+    left:620rpx;
 }
 
 .nextbox{
-    margin-top:340rpx;
-    height:1000rpx;
+    margin-top:145rpx;
+    height:1200rpx;
     overflow-y: auto;
 }
 
@@ -120,13 +93,13 @@ Page {
 
 .nextbox .topnews .lefttopnews{
     height:60rpx;
-    background-color: #5ca7a0;
     color:white;
-    width:148rpx;
+    width:35rpx;
     text-align: center;
     line-height: 60rpx;
     font-size:35rpx;
     border-radius: 20rpx;
+    margin-top:5rpx;
 }
 
 .nextbox .topnews .righttopnews{
@@ -134,13 +107,13 @@ Page {
     line-height:60rpx;
     font-size:35rpx;
     color:#5ca7a0;
-    margin-left:25rpx;
+    margin-left:20rpx;
     overflow-y:hidden;
 }
 
 .nextbox .mainbox{
     width:95%;
-    height:1850rpx;
+    height:1750rpx;
     background-color: #fff;
     margin:0 auto;
     border-radius: 20rpx;
@@ -151,7 +124,7 @@ Page {
 
 .nextbox .mainbox .ip{
     background-color: #5ca7a0;
-    height:600rpx;
+    height:463.33rpx;
     width:585rpx;
     margin:0 auto;
     margin-top:50rpx;
@@ -169,19 +142,24 @@ Page {
 }
 
 .nextbox .mainbox .ip .ipbox{
-    height:466.67rpx;
+    height:316.67rpx;
     width:100%;
     overflow-x: auto;
     overflow-y: hidden;
     padding-left: 33.33rpx;
     box-sizing: border-box;
-    white-space:nowrap
+    white-space:nowrap;
+    margin-top: 15rpx;
 }
 
 .nextbox .mainbox .ip .ipbox .ipa{
     width:158.233rpx;
     height:100%;
-    margin-right:13.33rpx;
+    margin-right:20rpx;
+    background-color: #ACACAC;
+    border-radius: 16.67rpx;
+    border:1rpx white solid;
+    box-sizing: border-box;
 }
 
 .nextbox .mainbox .normalbox{
@@ -223,8 +201,8 @@ Page {
 }
 
 .foot .bottomitem image{
-    height:60.81rpx;
-    width:71.83rpx;
-    margin-left:30%;
+    height:56.67rpx;
+    width:56.67rpx;
+    margin-left:35%;
     margin-top:10%;
 }
